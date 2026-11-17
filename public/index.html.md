@@ -177,7 +177,7 @@ The prototype enables researchers to explore concepts, properties, and relations
 
 This review process helps identify inconsistencies and refine the ontology before proceeding with further experiments in ontology-native software engineering.
 
-![Ontology review dashboard showing a graph of payment concepts and relationships, accepted concepts, suggested changes, low-confidence mappings, and source-backed evidence.](__SITE_URL__images/neon-ontology-review-dashboard.png)
+![Ontology review dashboard showing a graph of payment concepts and relationships, accepted concepts, suggested changes, low-confidence mappings, and source-backed evidence.](__SITE_URL__images/ontology_review_refinement.png)
 
 *Ontology graph, semantic review, and source traceability interfaces from the working research prototype.*
 

@@ -352,11 +352,11 @@ export default function Home() {
             </p>
             <figure className="prototype-figure">
               <a
-                href={`${basePath}/images/neon-ontology-review-dashboard.png`}
+                href={`${basePath}/images/ontology_review_refinement.png`}
                 aria-label="View the experimental ontology review dashboard at full size"
               >
                 <Image
-                  src={`${basePath}/images/neon-ontology-review-dashboard.png`}
+                  src={`${basePath}/images/ontology_review_refinement.png`}
                   alt="Ontology review dashboard showing a graph of payment concepts and relationships, accepted concepts, suggested changes, low-confidence mappings, and source-backed evidence."
                   width={1536}
                   height={1024}
