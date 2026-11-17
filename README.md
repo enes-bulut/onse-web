@@ -1,6 +1,6 @@
 # Ontology-Native Software Engineering
 
-An independent, non-commercial technical research website. The design and research content are carried over from Ontology as Software, with the new project name and no contact email or email buttons. The self-assessment uses only in-memory browser state; answers are never transmitted or persisted.
+A technical research website presenting working experimental prototype examples, current scope, and open research questions. The design and research content are carried over from Ontology as Software, with the new project name and no contact email or email buttons.
 
 ## Local development
 

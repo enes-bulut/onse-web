@@ -10,9 +10,14 @@ test('exports the current research branding without email', async () => {
   assert.match(html, /Ontology-Native Software Engineering/);
   assert.match(html, /Own the meaning behind your systems/);
   assert.match(html, /The ontology is the software/);
-  assert.match(html, /non-commercial technical research project/);
-  assert.match(html, /90-second research self-assessment/i);
-  assert.match(html, /validated research instrument/);
+  assert.match(html, /working experimental prototype/i);
+  assert.match(html, /View prototype examples/);
+  assert.match(html, /Current prototype scope/);
+  assert.match(html, /Open research questions/);
+  assert.ok(html.indexOf('id="prototype"') < html.indexOf('id="problem"'));
+  assert.ok(html.indexOf('id="prototype"') < html.indexOf('id="premise"'));
+  assert.ok(html.indexOf('The ontology is the software') > html.indexOf('id="premise"'));
+  assert.doesNotMatch(html, /90-second research self-assessment|id="diagnostic"|validated research instrument/i);
   assert.match(html, /<title>Ontology-Native Software Engineering/);
   assert.doesNotMatch(html, /ontologyas\.software|mailto:|hello@|Share Research Feedback|semantic friction/i);
   assert.ok(html.includes(`rel="canonical" href="${siteUrl}"`));

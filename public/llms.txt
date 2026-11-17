@@ -1,12 +1,12 @@
 # Ontology-Native Software Engineering
 
-> An independent, non-commercial technical research project exploring how ontologies could guide software design, implementation, verification, and evolution.
+> Technical research and working experimental prototype examples on extracting domain concepts, clarifying semantic ambiguities, and reviewing traceable ontologies.
 
 The canonical site is __SITE_URL__. Ontology-Native Software Engineering explores an evolving technical hypothesis about ontology-native software engineering, subject to experimentation and technical validation.
 
 ## Primary content
 
-- [Ontology-Native Software Engineering](__SITE_URL__): The human-readable homepage with the research motivation, hypothesis, scenarios, browser-only self-assessment, experimental directions, and research topics.
+- [Ontology-Native Software Engineering](__SITE_URL__): The homepage presents a working experimental prototype, the Merchant / MerchantAccount clarification example, research motivation and hypothesis, current scope, and open questions.
 - [Ontology-Native Software Engineering in Markdown](__SITE_URL__index.html.md): A faithful text version of the homepage for AI agents and other text-first clients.
 
 ## Discovery

@@ -862,8 +862,16 @@ input {
   grid-template-columns: minmax(0, 900px);
 }
 
+.section.prototype-section {
+  padding-block: clamp(56px, 6vw, 88px);
+}
+
+.prototype-section > .section-index {
+  margin-bottom: 32px;
+}
+
 .prototype-stage {
-  margin-top: 72px;
+  margin-top: 36px;
 }
 
 .prototype-stage h3 {
@@ -885,7 +893,7 @@ input {
 }
 
 .prototype-figure {
-  margin: 36px 0 0;
+  margin: 24px 0 0;
 }
 
 .prototype-figure a {
@@ -1342,5 +1350,40 @@ button:focus-visible {
   *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+/* Bounded experiment notes retain the existing typography and palette. */
+.prototype-result {
+  padding: 18px 22px;
+  border-left: 3px solid var(--accent);
+  background: var(--paper);
+  overflow-wrap: anywhere;
+}
+.experiment-note {
+  max-width: 800px;
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+.experiment-note p:last-child { margin-bottom: 0; color: var(--muted); }
+.conversation-copy h3 { margin: 0 0 18px; }
+.conversation-copy p + h3 { margin-top: 32px; }
+
+/* Warm chapter background, with the original content alignment preserved. */
+.section.problem-section {
+  --muted: #4d4038;
+  --line: #c77955;
+  --accent: #873719;
+  --paper-bright: #f9c5a8;
+  width: 100%;
+  padding-inline: max(32px, calc((100vw - 1180px) / 2));
+  background: #f4ac87;
+}
+
+@media (max-width: 680px) {
+  .section.problem-section {
+    padding-inline: 16px;
   }
 }
