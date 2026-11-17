@@ -1,0 +1,17 @@
+# Ontology-Native Software Engineering
+
+> An independent, non-commercial technical research project exploring how ontologies could guide software design, implementation, verification, and evolution.
+
+The canonical site is __SITE_URL__. Ontology-Native Software Engineering explores an evolving technical hypothesis about ontology-native software engineering, subject to experimentation and technical validation.
+
+## Primary content
+
+- [Ontology-Native Software Engineering](__SITE_URL__): The human-readable homepage with the research motivation, hypothesis, scenarios, browser-only self-assessment, experimental directions, and research topics.
+- [Ontology-Native Software Engineering in Markdown](__SITE_URL__index.html.md): A faithful text version of the homepage for AI agents and other text-first clients.
+
+## Discovery
+
+- [XML sitemap](__SITE_URL__sitemap.xml): The canonical indexable URL for the site.
+- [Robots policy](__SITE_URL__robots.txt): Crawler access rules and sitemap location.
+
+
